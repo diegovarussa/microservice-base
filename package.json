@@ -11,21 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.19.2",
     "delay": "^4.3.0",
     "express": "^4.17.1",
     "express-basic-auth": "^1.2.0",
     "ip": "^1.1.5",
     "lightship": "^4.3.10",
-    "mysql": "^2.18.0",
+    "mysql": "^2.18.1",
     "redis": "^2.8.0"
   },
   "devDependencies": {
-    "@types/node": "^13.1.8",
+    "@types/node": "^13.11.0",
     "assert": "2.0.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "mocha": "^7.0.0",
+    "mocha": "^7.1.1",
     "nyc": "^15.0.0"
   }
 }
