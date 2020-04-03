@@ -33,7 +33,7 @@ jobs:
         CI: "true"
     - name: "Docker Build"
       run: |
-        docker build -t diegovarussa/microservice-base:1.0.1 .
+        docker build -t diegovarussa/microservice-base:latest .
     - name: "Docker Login"
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
@@ -42,4 +42,4 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: "Docker Push"
       run: |
-        docker push diegovarussa/microservice-base:1.0.1
+        docker push diegovarussa/microservice-base:latest
