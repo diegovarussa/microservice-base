@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = async (app, req) => {
-  let routes = ['v1.0.17'];
+  let routes = [`hostname: ${process.env.HOSTNAME}`];
   let host = req.hostname;
   let port = (process.env.PORT === undefined) ? '' : `:${process.env.PORT}`
   app._router.stack.forEach((r) => {
