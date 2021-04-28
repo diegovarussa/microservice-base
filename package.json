@@ -18,7 +18,7 @@
     "ip": "^1.1.5",
     "lightship": "^4.3.10",
     "mysql": "^2.18.1",
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   },
   "devDependencies": {
     "@types/node": "^13.11.0",
